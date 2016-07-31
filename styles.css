@@ -1,3 +1,44 @@
 body {
-	background: blue;
+	background: #EE6F53;
+
+}
+
+.courier {
+	font-family: "courier";
+}
+
+.indent {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#centered {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+}
+
+#addpadding {
+	padding: 20px;
+	color: white;
+}
+
+#shaqbackground {
+	background-image: url("shaq.jpg");
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: small;
+  }
 }
